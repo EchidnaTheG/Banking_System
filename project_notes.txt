@@ -1,0 +1,50 @@
+Account (High Priority)
+
+Account number
+Account type (savings, checking, etc.)
+Balance
+Currency
+Status (active, frozen, closed)
+Opening date
+Interest rate (if applicable)
+Owner (reference to User)
+Transaction (High Priority)
+
+Transaction ID
+Type (deposit, withdrawal, transfer)
+Amount
+Currency
+Source account
+Destination account (for transfers)
+Timestamp
+Status (pending, completed, failed)
+Description/memo
+Additional Important Models:
+
+Beneficiary
+
+For storing trusted transfer recipients
+KYC information
+Relationship to account holder
+Card
+
+Card number
+Type (debit/credit)
+Expiration
+Status
+Associated account
+Notification
+
+Type (SMS, email, push)
+Content
+Status
+Timestamp
+User reference
+AuditLog
+
+Action type
+Timestamp
+User reference
+Details
+IP address
+Device info
